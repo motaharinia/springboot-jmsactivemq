@@ -1,4 +1,4 @@
-## Spring Boot with JMS and ActiveMQ
+## Spring Boot with JMS and Apache ActiveMQ
 
 ### Java Message Service (JMS):
 Java Messaging Service(JMS) is an application programming interface that is used for exchange of loosely coupled, reliable and asynchronous messages between different software application components (clients).
@@ -54,8 +54,6 @@ current project steps:
 4. Open the browser and hit - "http://localhost:8161/admin/" and Enter userId/password as admin/admin (ActiveMq by default exposes a broker url tcp://localhost:61616 and an admin console on tcp://localhost:61616 with userId and password as "admin" and "admin". )
 5. Now click on the queues option present in menu bar and you can notice there are no queues available as below image.
 6. Run Application.java as a java applicaton and you can see one queue automatically created with name inbound.queue which we had configured in our Listener.class. Refresh the page after application restart
-
-
 
 ### IntellliJ IDEA Configurations:
 - IntelijIDEA: Help -> Edit Custom Vm Options -> add these two line:
