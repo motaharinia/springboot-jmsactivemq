@@ -24,7 +24,7 @@ JMS messages sent by an application are targeted to a specific destination just 
 There are two types of destination in JMS: queues and topics.
 
 ### Queue:
-Queue’s are based on point-to-point messaging model (messages are sent to queue) or p2p model which allows users to send messages both synchronously or asynchronously using different channels.
+Queues are based on point-to-point messaging model (messages are sent to queue) or p2p model which allows users to send messages both synchronously or asynchronously using different channels.
 
 ### Topic:
 Topics are based on publish-subscribe model where messages are sent to a particular topic.
